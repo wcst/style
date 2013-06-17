@@ -85,7 +85,7 @@
 ### Preprocessors & Frameworks
   While a majority of our projects use [LESS](http://lesscss.org/) for CSS pre-compilation, [SCSS/SASS](http://sass-lang.com) has been introduced into the workflow. WCST generally uses Foundation(http://foundation.zurb.com) and in some instances [Twitter bootstrap](http://twitter.github.io/bootstrap) when intiating a new project or application.
   
-  ### Variable Naming
+#### Variable Naming
   
 ```scss
   
@@ -106,8 +106,54 @@
   
   /* Good */
   $baseWhite: #FEFEFE;
-  
   $coolBlue: #0066FF;
+  
+  /* -------- */
+  
+  /**
+  * Measurements
+  * Use specific and decriptive names for measurements
+  * Use camelCase
+  **/
+  
+  /* Bad */
+  $fHeight: 6em;
+  $scrollersize: 50%;
+  
+  /* Good */
+  $footerHeight: 6em;
+  $heroScrollwerWidth: 50%;
+
+```
+
+#### File setup
+Whether using a collection of individual files and compiling via `@import()` of `$include`, keep similar rules and styles grouped.  
+  Define each segment of styles with `/* -- <name> -- */` and insert at least 5 lines above
+```scss
+/* Globals */
+html, body {
+  height: 100%;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+
+
+
+/* -- Nav View (#nav_view) -- */
+#nav_view {
+  /* nav view styles here */
+}
+
+
+
+
+/* -- Footer (footer) -- */
+footer {
+  /* footer styles here */
+}
 
 ```
 
