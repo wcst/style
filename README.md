@@ -210,8 +210,8 @@ footer {
 
 /* Retina display media query */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-      only screen and (min--moz-device-pixel-ratio: 1.5),
-      only screen and (min-resolution: 240dpi){
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 240dpi){
 
   .sprite{
     background-image: url(@sprite2x);
