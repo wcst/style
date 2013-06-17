@@ -52,7 +52,7 @@
 
 * * *
 
-  Presentational ids should be `_` underscore separated
+  Presentational classes and ids should be `_` underscore separated
 ```html
 <!-- Nein -->
 <div id="_redbox"></div>
@@ -60,23 +60,15 @@
 <div id="redBox"></div>
 <div id="redbox"></div>
 
+<div class="theRedBox"></div>
+<div class="theredox"></div>
+<div class="_theredox"></div>
+
 <!-- Ja -->
 <div id="red_box"></div>
-```
-
-* * *
-
-  Presentational classes should be camelCase
-```html
-<!-- Nein -->
-<div class="_the_redbox"></div>
-<div class="_theredBox"></div>
-<div class="theredbox"></div>
 <div class="the_red_box"></div>
-
-<!-- Ja -->
-<div class="theRedBox"></div>
 ```
+
 * * *
 
 ## CSS
