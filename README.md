@@ -16,10 +16,6 @@
 
 ``` unicode
 .
-├── Gruntfile.js
-├── config.rb
-├── package.json
-├── node_modules
 │   ├── ...
 ├── public
 │   ├── css
@@ -34,21 +30,11 @@
 │   │       ├── app.less
 │   ├── img
 │   │   └── ui
-│   │       └── sprites
 │   ├── index.html
 │   ├── js
 │   │   ├── lib
-│   │   │   ├── backbone-min.js
-│   │   │   ├── handlebars.js
-│   │   │   ├── lodash.compat.min.js
-│   │   │   ├── modernizr.min.js
-│   │   │   ├── require.js
-│   │   │   └── zepto.min.js
-│   │   ├── main.js
 │   │   └── templates
-│   │       └── templates.js
 │   └── templates
-└── server.js
 
 ```
 
