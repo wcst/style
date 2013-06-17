@@ -144,7 +144,12 @@ h1 {
 
 /* -- Nav View (#nav_view) -- */
 #nav_view {
-  /* nav view styles here */
+  #nav_view_slider {
+    width: 50%;
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
 
