@@ -79,6 +79,36 @@
     
     transform: translate3d(0, 4%, 0);
   }
+```  
+  * * *
+  
+### Preprocessors & Frameworks
+  While a majority of our projects use [LESS](http://lesscss.org/) for CSS pre-compilation, [SCSS/SASS](http://sass-lang.com) has been introduced into the workflow. WCST generally uses Foundation(http://foundation.zurb.com) and in some instances [Twitter bootstrap](http://twitter.github.io/bootstrap) when intiating a new project or application.
+  
+  #### Variable Naming
+  
+```scss
+  
+  /**
+  * Colors (LESS or SCSS)
+  * Use generic, yet descriptive color declarations
+  * Do not use standard CSS color names (http://www.w3schools.com/cssref/css_colornames.asp)
+  * Use camelCase for color names to ensure differentiation for CSS defaults
+  * **Note** this snippet uses the `$` to denote a SCSS variable, LESS uses `@`
+  **/
+  
+  /* Bad */
+  $white: white;
+  $white: #FFF;
+  
+  $coolblue: blue;
+  $coolblue: #0066FF;
+  
+  /* Good */
+  $baseWhite: #FEFEFE;
+  
+  $coolBlue: #0066FF;
+
 ```
 
 * * *
