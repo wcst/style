@@ -10,13 +10,12 @@
 
 ## Project Settings
 
-  Project scaffolding will vary depending on the type of application and its full breadth of components. The cllient-side code scaffold should, however, remain consistent.
+  The project scaffolding will vary depending on the type of application and its scope. The client-side code should however, remain consistent.
   
-  The following demonstrates a basic WCST project structure
+  The following demonstrates a basic WCST project structure:
 
 ``` unicode
 .
-│   ├── ...
 ├── public
 │   ├── css
 │   │   ├── app
