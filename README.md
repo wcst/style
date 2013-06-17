@@ -61,8 +61,8 @@
 <div id="redbox"></div>
 
 <div class="theRedBox"></div>
-<div class="theredox"></div>
-<div class="_theredox"></div>
+<div class="theredbox"></div>
+<div class="_theredbox"></div>
 
 <!-- Ja -->
 <div id="red_box"></div>
