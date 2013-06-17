@@ -88,6 +88,8 @@
   
   * * *
   
+### Patterns
+  
   Avoid pollution of the global namespace as much as possible! If using AMD, consider tying application level-events and configurations to a re-useable `app` object which can then be exported and passed around as needed.
   
 ``` javascript
@@ -152,4 +154,24 @@
   })(window, undefined);
   
 
-```
+```  
+  * * *
+  
+### Frameworks & Libraries
+  Depending on the scope of the project and the depth of requirements, the set of libraries and frameworks will change. The followin list represents libraries most commonly used in WCST project and applications.
+  
+  **DOM access & manipulation (default to vanilla JS first)**  
+    - [jQuery](http://jquery.com)  
+    - [Zepto](http://zeptojs.com)
+  
+  **For utility**  
+    - [LoDash](http://lodash.com) – Drop in replacement for Underscore.js  
+    - [Underscore.js](http://underscorejs.org)
+    
+  **Architecture, routing, and/or Events**  
+    - [Backbone.js](http://backbonejs.org)  
+    - [RequireJS](http://requirejs.org)
+    
+  **Templating**  
+    - [Handlebars.js](http://handlebarsjs.com)
+  
