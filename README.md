@@ -85,3 +85,71 @@
 
 ## Javascript
   Modularity and separation of concerns is key!
+  
+  * * *
+  
+  Avoid pollution of the global namespace as much as possible! If using AMD, consider tying application level-events and configurations to a re-useable `app` object which can then be exported and passed around as needed.
+  
+``` javascript
+
+  // app.js
+  define(['someDependency'], function () {
+    
+    var app = {
+      api: {
+        urls: {
+          'people': {url:'/people'},
+          'places': {url: '/places'},
+          'things': {url: '/things'}
+        }
+      },
+      
+      getApiUrl: function (req) {
+        return this.api.urls[req].url;
+      }
+    };
+    
+    // Export the app object
+    return app;
+  });
+  
+  
+  // Other modules throughout your app can then use app
+  define(['app'], function(app) {
+      app.someFunction();
+      
+      var apiURL = app.getApiUrl('people');
+  });
+
+```
+
+  If not using AMD, attach a single namespace reference to the window object for app-level access. Our example above could be re-written as:
+
+``` javascript
+
+  // app.js
+  (function (window) {
+    
+    var app = window.app || {};
+    
+    app.api = {
+      urls: {
+        'people': {url:'/people'},
+        'places': {url: '/places'},
+        'things': {url: '/things'}
+      }
+    };
+    
+    app.getApiUrl = function (req) {
+      return this.api.urls[req];
+    };
+    
+  })(window, undefined);
+  
+  // Other JS files (added *after* app.js) can then access the app object
+  (function (window) {
+    console.log( app.getApiUrl('things') ); // '/things'  
+  })(window, undefined);
+  
+
+```
