@@ -280,11 +280,11 @@ footer {
     - [LoDash](http://lodash.com) – Drop in replacement for Underscore.js  
     - [Underscore.js](http://underscorejs.org)
     
-  **Architecture, routing, and/or Events**  
+  **Architecture/Routing/Events**  
     - [Backbone.js](http://backbonejs.org)  
     - [RequireJS](http://requirejs.org)
     
-  **UI**
+  **UI**  
     - [jQuery.transit](http://ricostacruz.com/jquery.transit)
     
   **Templating**  
