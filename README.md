@@ -249,9 +249,7 @@ footer {
   
   // Other modules throughout your app can then use app
   define(['app'], function(app) {
-      app.someFunction();
-      
-      var apiURL = app.getApiUrl('people');
+      console.log( app.getApiUrl('people') ); // '/people'
   });
 
 ```
