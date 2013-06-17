@@ -174,4 +174,10 @@
     
   **Templating**  
     - [Handlebars.js](http://handlebarsjs.com)
+    
+  **Scaffolding & Build**  
+    - [Grunt](http://gruntjs.com)  
+    - [Yeoman](http://yeoman.io)
   
+  **Node.js**  
+    - Typically, our Node.js applications use [Express](http://expressjs.com) to fire up HTTP servers
