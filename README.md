@@ -130,7 +130,7 @@
 Whether using a collection of individual files and compiling via `@import()` of `$include`, keep similar rules and styles grouped.  
   Define each segment of styles with `/* -- <name> -- */` and insert at least 5 lines above
 ```scss
-/* Globals */
+/* -- Globals -- */
 html, body {
   height: 100%;
 }
