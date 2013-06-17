@@ -276,13 +276,16 @@ footer {
     - [jQuery](http://jquery.com)  
     - [Zepto](http://zeptojs.com)
   
-  **For utility**  
+  **Utility**  
     - [LoDash](http://lodash.com) – Drop in replacement for Underscore.js  
     - [Underscore.js](http://underscorejs.org)
     
   **Architecture, routing, and/or Events**  
     - [Backbone.js](http://backbonejs.org)  
     - [RequireJS](http://requirejs.org)
+    
+  **UI**
+    - [jQuery.transit](http://ricostacruz.com/jquery.transit)
     
   **Templating**  
     - [Handlebars.js](http://handlebarsjs.com)
