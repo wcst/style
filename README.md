@@ -193,6 +193,33 @@ footer {
 
 ```
 
+#### Patterns
+
+  When using LESS, serve @2x sprites for retina displays. Create a global class of `.sprite` and define rules at the introduction of your document:
+  
+```css
+@sprite: '/path/to/sprite.png';
+@sprite2x: '/path/to/sprite@2x.png';
+
+/* Declare .sprite class */
+.sprite{
+  display: block;
+  background: url(@sprite) no-repeat;
+  text-indent: -9999em;
+}
+
+/* Retina display media query */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+      only screen and (min--moz-device-pixel-ratio: 1.5),
+      only screen and (min-resolution: 240dpi){
+
+  .sprite{
+    background-image: url(@sprite2x);
+    background-size: 440px 280px; /* 1/2 the size of the original */
+  }
+}
+```
+
 * * *
 
 ## Javascript
