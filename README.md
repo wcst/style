@@ -8,6 +8,52 @@
 
 ***
 
+## Project Settings
+
+  Project scaffolding will vary depending on the type of application and its full breadth of components. The cllient-side code scaffold should, however, remain consistent.
+  
+  The following demonstrates a basic WCST project structure
+
+``` unicode
+.
+├── Gruntfile.js
+├── config.rb
+├── package.json
+├── node_modules
+│   ├── ...
+├── public
+│   ├── css
+│   │   ├── app
+│   │   │   └── app.css
+# If using SCSS/SASS :
+│   │   └── scss
+│   │       ├── _settings.scss
+│   │       └── app.scss
+# Or, if using LESS :
+│   │   └── less
+│   │       ├── app.less
+│   ├── img
+│   │   └── ui
+│   │       └── sprites
+│   ├── index.html
+│   ├── js
+│   │   ├── lib
+│   │   │   ├── backbone-min.js
+│   │   │   ├── handlebars.js
+│   │   │   ├── lodash.compat.min.js
+│   │   │   ├── modernizr.min.js
+│   │   │   ├── require.js
+│   │   │   └── zepto.min.js
+│   │   ├── main.js
+│   │   └── templates
+│   │       └── templates.js
+│   └── templates
+└── server.js
+
+```
+
+***
+
 ## HTML Markup
   Selectors that are intened for consumption via JS only shoule be prefixed with an `_` underscore
 ```html
