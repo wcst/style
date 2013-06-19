@@ -100,6 +100,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 <div id="red_box"></div>
 <div class="the_red_box"></div>
 ```
+**<sub>[Back to top](#outline)</sub>**
 
 * * *
 
@@ -134,12 +135,19 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
     
     transform: translate3d(0, 4%, 0);
   }
-```  
-  * * *
+```
+
+**<sub>[Back to top](#outline)</sub>**
+      
+* * *
   
 ### Preprocessors & Frameworks <a name='preprocessors'> </a>
   While a majority of our projects use [LESS](http://lesscss.org/) for CSS pre-compilation, [SCSS/SASS](http://sass-lang.com) has been introduced into the workflow. WCST generally uses [Foundation](http://foundation.zurb.com) and in some instances [Twitter bootstrap](http://twitter.github.io/bootstrap) when intiating a new project or application.
-  
+
+**<sub>[Back to top](#outline)</sub>**
+
+* * *
+
 #### Variable Naming <a name='css-variable-naming'> </a>
   
 ```scss
@@ -180,6 +188,9 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
   $heroScrollwerWidth: 50%;
 
 ```
+**<sub>[Back to top](#outline)</sub>**
+
+* * *
 
 #### File Prep <a name='css-file-prep'> </a>
 Whether using a collection of individual files and compiling via `@import()` of `$include`, keep similar rules and styles grouped.  
@@ -230,6 +241,9 @@ footer {
 }
 
 ```
+**<sub>[Back to top](#outline)</sub>**
+
+* * *
 
 #### Patterns <a name='css-patterns'> </a>
 
@@ -331,8 +345,10 @@ footer {
   })(window, undefined);
   
 
-```  
-  * * *
+```
+**<sub>[Back to top](#outline)</sub>**
+
+* * *
   
 ### Frameworks & Libraries <a name='js-libraries'> <a>
   Depending on the scope of the project and the depth of requirements, the set of libraries and frameworks will change. The followin list represents libraries most commonly used in WCST project and applications.
