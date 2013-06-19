@@ -1,1 +1,0 @@
-Make some SASS sprites!
