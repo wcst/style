@@ -17,6 +17,8 @@
       - [File Prep](#css-file-prep)
       - [Patterns](#css-patterns)  
   1. [Javascript](#js)
+      - [Patterns](#js-patterns)
+      - [Frameworks & Libraries](#js-libraries)
   
 ***
 
@@ -261,11 +263,11 @@ footer {
 * * *
 
 ## Javascript <a name='js'> </a>
-  *Modularity and separation of concerns is key!*
+  *S e p a r a t e  c o n c e r n s  i n t o  m o d u l e s!*
   
   * * *
   
-### Patterns
+### Patterns <a name='js-patterns'> </a>
   
   Avoid pollution of the global namespace as much as possible! If using AMD, consider tying application level-events and configurations to a re-useable `app` object which can then be exported and passed around as needed.
   
@@ -332,7 +334,7 @@ footer {
 ```  
   * * *
   
-### Frameworks & Libraries
+### Frameworks & Libraries <a name='js-libraries'> <a>
   Depending on the scope of the project and the depth of requirements, the set of libraries and frameworks will change. The followin list represents libraries most commonly used in WCST project and applications.
   
   **DOM access & manipulation (default to vanilla JS first)**  
