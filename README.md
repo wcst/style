@@ -6,7 +6,14 @@
 
 ***
 
-## Resources & Background
+## <a name='TOC'>Outline</a>
+
+  1. [Resources & Background](#types)
+  1. [Project Settings](#project_settings)
+
+***
+
+## <a name='resources'>Resources & Background</a>
 Instead of re-writing a bunch of well-done guides and ideas, we decided to point you to them directly. Here are a few style-guides and pattern references to look over at some point.
 
   - Javascript
@@ -17,9 +24,9 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
   - PHP:
     - [Fig Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
 
-***
 
-## Project Settings
+***
+## <a name='project_settings'>Project Settings</a>
 
   The project scaffolding will vary depending on the type of application and its scope. The client-side code should however, remain consistent.
   
