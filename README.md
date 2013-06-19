@@ -10,10 +10,11 @@
 
   1. [Resources & Background](#resources)
   1. [Project Settings](#project_settings)
+  1. [HTML Markup](#markup)
 
 ***
 
-## <div name='resources'>Resources & Background</div>
+## <a name='resources'>Resources & Background</a>
 Instead of re-writing a bunch of well-done guides and ideas, we decided to point you to them directly. Here are a few style-guides and pattern references to look over at some point.
 
   - Javascript
@@ -26,7 +27,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 
 
 ***
-## <div id='project_settings'>Project Settings</div>
+## <a name='project_settings'>Project Settings</a>
 
   The project scaffolding will vary depending on the type of application and its scope. The client-side code should however, remain consistent.
   
@@ -57,7 +58,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 
 ***
 
-## HTML Markup
+## <a name=`markup'>HTML Markup</a>
   Selectors that are intened for consumption via JS only shoule be prefixed with an `_` underscore
 ```html
 <!-- Nope -->
