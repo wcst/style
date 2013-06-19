@@ -12,7 +12,11 @@
   1. [Project Settings](#project_settings)
   1. [HTML Markup](#markup)
   1. [CSS](#css)
-      - [Preprocessors](#preprocessors)
+      - [Preprocessors](#preprocessors)  
+      - [Variable Naming](#css-variable-naming)  
+      - [File Prep](#css-file-prep)
+      - [Patterns](#css-patterns)  
+  1. [Javascript](#js)
   
 ***
 
@@ -63,7 +67,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 
 ***
 
-## <a name='markup'>HTML Markup</a>
+## HTML Markup <a name='markup'> </a>
   Selectors that are intened for consumption via JS only shoule be prefixed with an `_` underscore
 ```html
 <!-- Nope -->
@@ -97,9 +101,9 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 
 * * *
 
-## <a name='css'>CSS</a>
+## CSS <a name='css'> </a>
   
-  [OOCSS](http://oocss.org/) principles should be adhered to as musch as is possible.
+  Following [OOCSS](http://oocss.org/) principles not only improves code comprehension, but it improves team-wide maintainability. Concerns for both styling and behavior as dictated by the CSS should be encapsulated and kept DRY!
   
 * * *
   
@@ -134,7 +138,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 ### Preprocessors & Frameworks <a name='preprocessors'> </a>
   While a majority of our projects use [LESS](http://lesscss.org/) for CSS pre-compilation, [SCSS/SASS](http://sass-lang.com) has been introduced into the workflow. WCST generally uses [Foundation](http://foundation.zurb.com) and in some instances [Twitter bootstrap](http://twitter.github.io/bootstrap) when intiating a new project or application.
   
-#### Variable Naming
+#### Variable Naming <a name='css-variable-naming'> </a>
   
 ```scss
   
@@ -175,11 +179,11 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 
 ```
 
-#### File setup
+#### File Prep <a name='css-file-prep'> </a>
 Whether using a collection of individual files and compiling via `@import()` of `$include`, keep similar rules and styles grouped.  
-  Define each segment of styles with `/* -- <name> -- */` and insert at least 5 lines above
+  Define each segment of styles with `/* === <name> === */` and insert at least 5 lines above
 ```scss
-/* -- Globals -- */
+/* === Globals === */
 html, body {
   height: 100%;
 }
@@ -191,7 +195,21 @@ h1 {
 
 
 
-/* -- Nav View (#nav_view) -- */
+
+/* ===
+*
+* Example Of
+* A multi-line CSS comment
+*
+=== */
+#app {
+  transform: rotate(98deg);
+}
+
+
+
+
+/* === Nav View (#nav_view) === */
 #nav_view {
   #nav_view_slider {
     width: 50%;
@@ -204,14 +222,14 @@ h1 {
 
 
 
-/* -- Footer (footer) -- */
+/* === Footer (footer) === */
 footer {
   /* footer styles here */
 }
 
 ```
 
-#### Patterns
+#### Patterns <a name='css-patterns'> </a>
 
   When using LESS, serve @2x sprites for retina displays. Create a global class of `.sprite` and define rules at the introduction of your document:
   
@@ -242,8 +260,8 @@ footer {
 
 * * *
 
-## Javascript
-  Modularity and separation of concerns is key!
+## Javascript <a name='js'> </a>
+  *Modularity and separation of concerns is key!*
   
   * * *
   
