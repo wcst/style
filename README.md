@@ -247,7 +247,7 @@ footer {
 
 #### Patterns <a name='css-patterns'> </a>
   
-  *If using SASS, follow [this guide](/wiki/Compass-SASS-Sprites).*
+  *If using SASS, follow [this guide](wiki/Compass-SASS-Sprites).*
   
   *If using LESS, see below:*  
   Serve @2x sprites for retina displays. Create a global class of `.sprite` and define rules at the introduction of your document:
