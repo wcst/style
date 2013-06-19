@@ -6,7 +6,7 @@
 
 ***
 
-## Outline
+## <a name='outline'>Outline</a>
 
   1. [Resources & Background](#resources)
   1. [Project Settings](#project_settings)
@@ -25,6 +25,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
   - PHP:
     - [Fig Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
 
+**[Back to top](#outline)**
 
 ***
 ## <a name='project_settings'>Project Settings</a>
@@ -58,7 +59,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 
 ***
 
-## <a name=`markup'>HTML Markup</a>
+## <a name='markup'>HTML Markup</a>
   Selectors that are intened for consumption via JS only shoule be prefixed with an `_` underscore
 ```html
 <!-- Nope -->
