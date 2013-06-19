@@ -6,7 +6,7 @@
 
 ***
 
-## <a name='outline'>Outline</a>
+## Outline<a name='outline'> </a>
 
   1. [Resources & Background](#resources)
   1. [Project Settings](#project_settings)
@@ -16,7 +16,7 @@
   
 ***
 
-## <a name='resources'>Resources & Background</a>
+## Resources & Background <a name='resources'> </a>
 Instead of re-writing a bunch of well-done guides and ideas, we decided to point you to them directly. Here are a few style-guides and pattern references to look over at some point.
 
   - Javascript
@@ -30,7 +30,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 **<sub>[Back to top](#outline)</sub>**
 
 ***
-## <a name='project_settings'>Project Settings</a>
+## Project Settings <a name='project_settings'> </a>
 
   The project scaffolding will vary depending on the type of application and its scope. The client-side code should however, remain consistent.
   
