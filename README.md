@@ -1,6 +1,6 @@
 # WCST Style Guide & Patterns
 
-* Work in progress *
+*This is how we do it*
 
 ## Baseline
   - Javascript: [Airbnb JS Style Guide](https://github.com/airbnb/javascript)
