@@ -246,8 +246,11 @@ footer {
 * * *
 
 #### Patterns <a name='css-patterns'> </a>
-
-  When using LESS, serve @2x sprites for retina displays. Create a global class of `.sprite` and define rules at the introduction of your document:
+  
+  *If using **SASS**, follow [this guide](/wiki/Compass-SASS-Sprites)*
+  
+  *If using **LESS**, see below*  
+  Serve @2x sprites for retina displays. Create a global class of `.sprite` and define rules at the introduction of your document:
   
 ```css
 @sprite: '/path/to/sprite.png';
@@ -271,8 +274,6 @@ footer {
   }
 }
 ```
-
-  When using SASS, follow [this guide](/wiki/Compass-SASS-Sprites).
 
 **<sub>[Back to top](#outline)</sub>**
 
