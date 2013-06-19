@@ -26,7 +26,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 
 
 ***
-## <div name='project_settings'>Project Settings</div>
+## <div id='project_settings'>Project Settings</div>
 
   The project scaffolding will vary depending on the type of application and its scope. The client-side code should however, remain consistent.
   
