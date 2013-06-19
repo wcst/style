@@ -6,14 +6,14 @@
 
 ***
 
-## <a name='TOC'>Outline</a>
+## Outline
 
   1. [Resources & Background](#types)
   1. [Project Settings](#project_settings)
 
 ***
 
-## <a name='resources'>Resources & Background</a>
+## <div name='resources'>Resources & Background</div>
 Instead of re-writing a bunch of well-done guides and ideas, we decided to point you to them directly. Here are a few style-guides and pattern references to look over at some point.
 
   - Javascript
