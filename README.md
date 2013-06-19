@@ -11,7 +11,8 @@
   1. [Resources & Background](#resources)
   1. [Project Settings](#project_settings)
   1. [HTML Markup](#markup)
-
+  1. [CSS](#css)
+  
 ***
 
 ## <a name='resources'>Resources & Background</a>
@@ -25,7 +26,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
   - PHP:
     - [Fig Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
 
-**[Back to top](#outline)**
+**<sub>[Back to top](#outline)</sub>**
 
 ***
 ## <a name='project_settings'>Project Settings</a>
@@ -57,6 +58,8 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 
 ```
 
+**<sub>[Back to top](#outline)</sub>**
+
 ***
 
 ## <a name='markup'>HTML Markup</a>
@@ -69,6 +72,8 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 <!-- Yep -->
 <div id="_selector_name"></div>
 ```
+
+**<sub>[Back to top](#outline)</sub>**
 
 * * *
 
@@ -91,7 +96,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
 
 * * *
 
-## CSS
+## <a name='css'>CSS</a>
   
   [OOCSS](http://oocss.org/) principles should be adhered to as musch as is possible.
   
@@ -231,6 +236,8 @@ footer {
   }
 }
 ```
+
+**<sub>[Back to top](#outline)</sub>**
 
 * * *
 
