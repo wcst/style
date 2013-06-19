@@ -1,8 +1,7 @@
 # WCST Style Guide & Patterns
 
-## Hi, there!
-*This is how we do it*
-...kind of. We often find ourselves in discussions about process, patterns, and styles. The team here at [We Can't Stop Thinking](http://wcst.com) is growing so we decided it was high time to compile our workflow into a write up. The following is an overview of our general development workflow and style guide(s). It should be regarded as an ever evolving entity (awesome alliteration and assertion, eh?). Included are a few choice design patterns, syntax rules, references, and code snippets that are the result of several years of trial and error (and error and error).
+## *This is how we do it*
+...well, kind of. Here at [We Can't Stop Thinking](http://wcst.com), we often find ourselves in discussions about process, patterns, and styles. It seems to be just the kind of thing developers do. As the team here is growing, we decided it was high time to mark down (get it, markdown?!?! hahaha) some of our procedures so that they may be preserved for future generations! The following is an overview of our general development workflow and style guide(s). It should be regarded as an ever evolving entity (awesome alliteration and assertion, eh?). Included are a few choice design patterns, syntax rules, references, and code snippets that are the result of several years of trial and error (and error and error).
 
 ***
 
