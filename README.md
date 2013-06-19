@@ -277,7 +277,7 @@ footer {
 * * *
 
 ## Javascript <a name='js'> </a>
-  *S e p a r a t e   [ c o n c e r n s ]   [ i n t o ]  [ m o d u l e s ]!*
+  *[ S e p a r a t e ]   [ c o n c e r n s ]   [ i n t o ]  [ m o d u l e s ]  [ ! ]*
   
   * * *
   
