@@ -1,10 +1,21 @@
 # WCST Style Guide & Patterns
 
+## Hi, there!
 *This is how we do it*
+...kind of. The following is an overview of our general front end workflow here at [We Can't Stop Thinking](http://wcst.com). You will find a few design patterns, syntax rules, and code snippets that are the result of several years of trial and error.
 
-## Baseline
-  - Javascript: [Airbnb JS Style Guide](https://github.com/airbnb/javascript)
-  - PHP: [Fig Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
+***
+
+## Resources & Background
+Instead of re-writing a bunch of well-done guides and ideas, we decided to point you to them directly. Here are a few style-guides and pattern references to look over at some point.
+
+  - Javascript
+    - [Airbnb JS Style Guide](https://github.com/airbnb/javascript)
+    - [Addy Osmani - Learning Javascript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+  - CSS
+    - [OOCSS](http://oocss.org/) 
+  - PHP:
+    - [Fig Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
 
 ***
 
