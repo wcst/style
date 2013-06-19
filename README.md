@@ -2,7 +2,7 @@
 
 ## Hi, there!
 *This is how we do it*
-...kind of. The following is an overview of our general front end workflow here at [We Can't Stop Thinking](http://wcst.com). You will find a few design patterns, syntax rules, and code snippets that are the result of several years of trial and error.
+...kind of. We often find ourselves in discussions about process, patterns, and styles. The team here at [We Can't Stop Thinking](http://wcst.com) is growing so we decided it was high time to compile our workflow into a write up. The following is an overview of our general development workflow and style guide(s). It should be regarded as an ever evolving entity (awesome alliteration and assertion, eh?). Included are a few choice design patterns, syntax rules, references, and code snippets that are the result of several years of trial and error (and error and error).
 
 ***
 
@@ -30,6 +30,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
     - [Addy Osmani - Learning Javascript Design Patterns](http://addyosmani.com/resources/essentialjsdesignpatterns/book/)
   - CSS
     - [OOCSS](http://oocss.org/) 
+    - [CSS-Tricks](http://css-tricks.com)
   - PHP:
     - [Fig Standards](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
 
