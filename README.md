@@ -121,7 +121,7 @@ Instead of re-writing a bunch of well-done guides and ideas, we decided to point
     
     font-size: 1.4em;
     font-weight: 200;
-    text-transform: uppercasel
+    text-transform: uppercase;
     text-align: center;
     
     opacity: 0.5;
