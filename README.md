@@ -17,6 +17,8 @@
       - [Patterns](#css-patterns)  
   1. [Javascript](#js)
       - [Patterns](#js-patterns)
+        - [Namespacing](#js-namespacing)
+        - [Variable Declarations](#js-variables)
       - [Frameworks & Libraries](#js-libraries)
   
 ***
@@ -286,6 +288,7 @@ footer {
   
 ### Patterns <a name='js-patterns'> </a>
   
+####Namespacing <a name='js-namespacing'> </a>
   Avoid pollution of the global namespace as much as possible! If using AMD, consider tying application level-events and configurations to a re-useable `app` object which can then be exported and passed around as needed.
   
 ``` javascript
@@ -349,6 +352,44 @@ footer {
   
 
 ```
+
+####Variable declaration & naming  <a name='js-variables'> </a>
+ 
+ Declare variables at the beginning of closures. This is important not only for readability, but it also helps to prevent the declaration of unused variables.
+  + Use one `var` statement
+  + Separate each variable into its own line
+  + Undefined variables should be added at the end of the statement
+  + When possible, separate similar variables in the statement order (Example B)
+
+``` javascript
+
+  // Example A
+  function ExampleA () {
+    var a = 0,
+        b = 1,
+        c;
+  }
+  
+  // Example B
+  function ExampleB () {
+    
+    // States
+    var a = 0,
+        b = 1,
+        count = 0,
+        
+        // Methods
+        _updateCount,
+        _getCount;
+        
+    _updateCount = function () { /*...*/  }
+    
+    _getCount = function () { /*...*/  }
+    
+  }
+
+```
+
 **<sub>[Back to top](#outline)</sub>**
 
 * * *
